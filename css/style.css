@@ -170,25 +170,26 @@ h1 {
 	background-color: rgba(230, 119, 138, 0.329);
 	perspective: 400px;
 	animation: cards 5s linear infinite;
+	-webkit-animation: cards 5s linear infinite;
+}
+
+.card:hover {
+	transition: all 1s ease 0s;
+	transform: translate3d(20px, -20px, 258px);
+	animation: cards none;
 }
 
 @keyframes cards {
 	0% {
+		-webkit-transform: rotate3d(1, 1, 1, 0deg);
 		transform: rotate3d(1, 1, 1, 0deg);
 	}
-	30% {
-		transform: perspective(400px) translate3d(1, 1, 4);
-	}
 	100% {
+		-webkit-transform: rotate3d(1, 100, 1, 360deg);
 		transform: rotate3d(1, 100, 1, 360deg);
 	}
 }
-/*
-.card:hover {
-	transform: rotate3d(1, 1, 1, 0deg);
-	transform: translate3d(1, 1, 58px);
-}
-*/
+
 .img_caed {
 	width: 220px;
 }

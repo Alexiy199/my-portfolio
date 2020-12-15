@@ -11,4 +11,4 @@ let mobile = document.querySelector('.mobile');
 
 mobile.addEventListener('click', function () {
 	numberHidden.classList.toggle('number_active');
-})
+});
