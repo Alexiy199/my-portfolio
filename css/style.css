@@ -106,6 +106,7 @@ h1 {
 }
 
 .mobile {
+	-o-position: absolute;
 	position: absolute;
 	right: 800px;
 	bottom: 15px;
@@ -156,6 +157,7 @@ h1 {
 .box_cards {
 	display: flex;
 	background-color: rgba(13, 13, 116, 0.322);
+	min-height: 100vh;
 }
 
 .card {
