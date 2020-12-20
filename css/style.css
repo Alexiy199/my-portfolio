@@ -70,6 +70,7 @@ h1 {
 }
 
 .img_contact_tlg {
+	cursor: pointer;
 	width: 80px;
 	height: 80px;
 	margin: 0px 0px 0px 20px;
@@ -280,6 +281,10 @@ h1 {
 	}
 	.box_cards {
 		flex-direction: column;
-		overflow: auto;
+		max-height: 230px;
+		overflow: scroll;
+	}
+	.card {
+		margin: 10px auto;
 	}
 }
