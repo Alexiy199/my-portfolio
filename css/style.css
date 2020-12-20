@@ -244,3 +244,42 @@ h1 {
 .img_caed {
 	width: 220px;
 }
+
+/*MOBILE*/
+@media (max-width: 767px) {
+	.avatar {
+		border-radius: 15px;
+	}
+	h1 {
+		font-size: 39px;
+	}
+	.my_name__ {
+		font-size: 24px;
+		margin: 0 auto;
+	}
+	.contacts {
+		padding: 20px 0px 0px 0px;
+	}
+	.img_contact {
+		width: 55px;
+		height: 55px;
+	}
+	.img_contact_tlg {
+		width: 55px;
+		height: 55px;
+	}
+	.tlg_cont {
+		font-size: 16px;
+	}
+	.skils {
+		margin: 0 auto;
+		font-size: 20px;
+	}
+	.number_active {
+		font-size: 18px;
+	}
+	.box_cards {
+		flex-direction: column;
+		overflow: auto;
+	}
+}
