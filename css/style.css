@@ -16,7 +16,7 @@ body {
 	display: flex;
 	text-align: left;
 	flex-direction: column;
-	height: 500px;
+	min-height: 40px;
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -106,7 +106,6 @@ h1 {
 }
 
 .mobile {
-	-o-position: absolute;
 	position: absolute;
 	right: 800px;
 	bottom: 15px;
@@ -114,6 +113,16 @@ h1 {
 	height: 60px;
 	cursor: pointer;
 	animation: mobile 1s linear infinite;
+}
+
+@media (max-width: 1453px) {
+	.mobile {
+		right: 300px;
+	}
+	.number_active {
+		right: 100px;
+		bottom: 20px;
+	}
 }
 
 @keyframes mobile {
@@ -132,9 +141,9 @@ h1 {
 }
 
 .number {
+	position: absolute;
 	opacity: 0;
 	visibility: hidden;
-
 	font-size: 50px;
 	color: white;
 	transition: all 0.7s ease 0s;
@@ -152,6 +161,46 @@ h1 {
 	color: white;
 	transition: all 0.7s ease 0s;
 	transform: translateX(100%);
+}
+
+@media (max-width: 1453px) {
+	.number_active {
+		right: 300px;
+		bottom: 25px;
+	}
+}
+
+@media (max-width: 1354px) {
+	.header {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+	.mobile {
+		position: relative;
+		margin: 0;
+		right: 0;
+		bottom: 0;
+	}
+}
+
+@media (max-width: 1353px) {
+	.tlg_cont {
+		position: static;
+	}
+	.mobile {
+		position: static;
+	}
+	.box {
+		position: static;
+	}
+}
+
+@media (min-width: 1684px) {
+	.mobile {
+		position: static;
+	}
 }
 
 .box_cards {
