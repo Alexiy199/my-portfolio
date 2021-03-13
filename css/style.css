@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	min-width: 100%;
 	min-height: 100%;
+	background-image: url(../img/background.jpg);
 }
 
 *,
@@ -18,6 +19,7 @@ body {
 	flex-direction: column;
 	min-height: 40px;
 	background-color: rgba(0, 0, 0, 0.7);
+	border: 3px solid black;
 }
 
 h1 {
@@ -31,7 +33,7 @@ h1 {
 	display: block;
 	width: 150px;
 	height: 150px;
-	border: 5px gold solid;
+	border: 2px solid black;
 	border-radius: 50%;
 	margin: 0px 10px 0px 100px;
 }
@@ -206,7 +208,6 @@ h1 {
 
 .box_cards {
 	display: flex;
-	background-color: rgba(13, 13, 116, 0.322);
 	min-height: 100vh;
 }
 
@@ -218,8 +219,8 @@ h1 {
 	height: 200px;
 	margin: 20px;
 	border-radius: 5px;
-	border: 1px solid rgb(114, 70, 77);
-	background-color: rgba(230, 119, 138, 0.329);
+	border: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.5);
 	perspective: 400px;
 	animation: cards 5s linear infinite;
 	-webkit-animation: cards 5s linear infinite;
