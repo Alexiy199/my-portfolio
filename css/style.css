@@ -295,7 +295,7 @@ h1 {
 	}
 
 	.box_cards {
-		max-height: 230px;
+		height: 112px;
 		overflow: scroll;
 	}
 
@@ -303,7 +303,7 @@ h1 {
 		width: 75px;
 		height: 110px;
 		padding: 2px;
-		margin: 2px auto;
+		margin: 2px auto 0px;
 	}
 
 	.img_caed {
