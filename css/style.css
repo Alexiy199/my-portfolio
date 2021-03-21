@@ -254,6 +254,10 @@ h1 {
 
 /*MOBILE*/
 @media (max-width: 767px) {
+	body {
+		overflow: hidden;
+	}
+
 	.avatar {
 		border-radius: 15px;
 	}
